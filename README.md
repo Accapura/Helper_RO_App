@@ -87,7 +87,7 @@ dotnet publish -c Release -r win-x64 --self-contained true
 | Роль | Ник |
 |---|---|
 | Разработка | **Денис Яров** — Discord: `roste233` |
-| Разработка | **Майкл Яров** — Discord: `accapura` |
+| Разработка | **Михаил Яровой** — Discord: `accapura` |
 
 ## Лицензия
 

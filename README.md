@@ -12,6 +12,7 @@
 [![Платформа](https://img.shields.io/badge/платформа-Windows-3D5AFE?style=flat-square)](#-требования)
 [![.NET](https://img.shields.io/badge/.NET-8.0-3D5AFE?style=flat-square)](#-требования)
 [![Скачать](https://img.shields.io/badge/скачать-releases-3D5AFE?style=flat-square)](../../releases/latest)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F70%20угроз-brightgreen?style=flat-square)](https://www.virustotal.com/gui/file/7055602a039d0130db12c049b34a49e4afb916f3e0e223f6f184ee12325f90f6)
 
 [**Скачать последнюю версию**](../../releases/latest) · [Сайт проекта](https://helperro.netlify.app/) · [Discord-мейнтейнеры](#-команда)
 
@@ -67,6 +68,7 @@
 1. Скачай `HelperGos.exe` из [Releases](../../releases/latest).
 2. Запусти файл.
 3. Если Windows SmartScreen/браузер покажет предупреждение — это стандартная реакция на новый неподписанный файл без истории репутации, не вирус. Жми «Подробнее» → «Выполнить в любом случае» (или аналог).
+4. Файл проверен на [VirusTotal](https://www.virustotal.com/gui/file/7055602a039d0130db12c049b34a49e4afb916f3e0e223f6f184ee12325f90f6) — 0 из 70 антивирусов не обнаружили угроз.
 
 ## Горячие клавиши
 

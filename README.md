@@ -40,22 +40,22 @@
 ## Скриншоты
 
 <table>
-  <tr>
-    <td><img src="screenshots/obshee.png" width="260"><br><sub>Общее</sub>sub></td>td>
-<td><img src="screenshots/ukro.png" width="260"><br><sub>УК РО</sub>sub></td>td>
-<td><img src="screenshots/tkro.png" width="260"><br><sub>ТК РО</sub>sub></td>td>
-  </tr>tr>
 <tr>
-  <td><img src="screenshots/ustav.png" width="260"><br><sub>Устав ФСБ</sub>sub></td>td>
-  <td><img src="screenshots/izbrannoe.png" width="260"><br><sub>Избранное</sub>sub></td>td>
-  <td><img src="screenshots/poleznoe.png" width="260"><br><sub>Полезное</sub>sub></td>td>
-</tr>tr>
-  <tr>
-    <td><img src="screenshots/zametki.png" width="260"><br><sub>Заметки</sub>sub></td>td>
-<td><img src="screenshots/nastroiki.png" width="260"><br><sub>Настройки</sub>sub></td>td>
-<td><img src="screenshots/oproekte.png" width="260"><br><sub>О проекте</sub>sub></td>td>
-  </tr>tr>
-</table>table>
+<td><img src="screenshots/obshee.png" width="260"><br><sub>Общее</sub></td>
+<td><img src="screenshots/ukro.png" width="260"><br><sub>УК РО</sub></td>
+<td><img src="screenshots/tkro.png" width="260"><br><sub>ТК РО</sub></td>
+</tr>
+<tr>
+<td><img src="screenshots/ustav.png" width="260"><br><sub>Устав ФСБ</sub></td>
+<td><img src="screenshots/izbrannoe.png" width="260"><br><sub>Избранное</sub></td>
+<td><img src="screenshots/poleznoe.png" width="260"><br><sub>Полезное</sub></td>
+</tr>
+<tr>
+<td><img src="screenshots/zametki.png" width="260"><br><sub>Заметки</sub></td>
+<td><img src="screenshots/nastroiki.png" width="260"><br><sub>Настройки</sub></td>
+<td><img src="screenshots/oproekte.png" width="260"><br><sub>О проекте</sub></td>
+</tr>
+</table>
 
 ## Скачать
 
@@ -64,52 +64,46 @@
 Зеркала на случай проблем с доступом к GitHub:
 
 - Яндекс.Диск: https://disk.yandex.ru/d/rcNRU6IoAKc-Hg
-- - Google Диск: https://drive.google.com/drive/folders/1NLbrBjAYa9duZ_gFSAFlhS7nBRIasveK?usp=sharing
-  -
-  - ## Требования
-  -
-  - - Windows 10/11 (x64)
-    - - .NET 8 Desktop Runtime — если не установлен, приложение предложит поставить его автоматически при первом запуске
-      -
-      - ## Установка
-      -
-      - 1. Скачай `HelperGos.exe` из [Releases](../../releases/latest).
-        2. 2. Запусти файл.
-           3. 3. Если Windows SmartScreen/браузер покажет предупреждение — это стандартная реакция на новый неподписанный файл без истории репутации, не вирус. Жми «Подробнее» → «Выполнить в любом случае» (или аналог).
-              4.
-              5. ## Горячие клавиши
-              6.
-              7. По умолчанию окно вызывается клавишей **Ё** (можно поменять в настройках приложения). Отдельно настраиваются клавиши блокировки окна, быстрого перехода в «Избранное» и в «Заметки».
-              8.
-              9. ## Сборка из исходников
-              10.
-              11. ```bash
-                  git clone https://github.com/Accapura/Helper_RO_App.git
-                  cd Helper_RO_App
-                  dotnet publish -c Release -r win-x64 --self-contained true
-                  ```
+- Google Диск: https://drive.google.com/drive/folders/1NLbrBjAYa9duZ_gFSAFlhS7nBRIasveK?usp=sharing
 
-                  Требуется .NET 8 SDK и Windows (используется WPF + WebView2).
+## Требования
 
-                  ## Команда
+- Windows 10/11 (x64)
+- .NET 8 Desktop Runtime — если не установлен, приложение предложит поставить его автоматически при первом запуске
 
-                  | Роль | Ник |
-                  |---|---|
-                  | Разработка | **Денис Яров** — Discord: `roste233` |
-                  | Разработка | **Михаил Яровой** — Discord: `accapura` |
+## Установка
 
-                  ## Лицензия
+1. Скачай `HelperGos.exe` из [Releases](../../releases/latest).
+2. Запусти файл.
+3. Если Windows SmartScreen/браузер покажет предупреждение — это стандартная реакция на новый неподписанный файл без истории репутации, не вирус. Жми «Подробнее» → «Выполнить в любом случае» (или аналог).
 
-                  Проект распространяется бесплатно для игроков сервера «Россия Онлайн». Открытый исходный код — для ознакомления и локальной сборки.
+## Горячие клавиши
 
-                  ---
+По умолчанию окно вызывается клавишей **Ё** (можно поменять в настройках приложения). Отдельно настраиваются клавиши блокировки окна, быстрого перехода в «Избранное» и в «Заметки».
 
-                  <div align="center">
-                    <sub>Помощник для РО · Россия Онлайн · Кутузовский</sub>sub>
-                  </div>div>
-                  
-                  </td></td>
-  </tr>
-</tr></td></td>
-  </tr>
-</table>
+## Сборка из исходников
+
+```bash
+git clone https://github.com/Accapura/Helper_RO_App.git
+cd Helper_RO_App
+dotnet publish -c Release -r win-x64 --self-contained true
+```
+
+Требуется .NET 8 SDK и Windows (используется WPF + WebView2).
+
+## Команда
+
+| Роль | Ник |
+|---|---|
+| Разработка | **Денис Яров** — Discord: `roste233` |
+| Разработка | **Михаил Яровой** — Discord: `accapura` |
+
+## Лицензия
+
+Проект распространяется бесплатно для игроков сервера «Россия Онлайн». Открытый исходный код — для ознакомления и локальной сборки.
+
+---
+
+<div align="center">
+<sub>Помощник для РО · Россия Онлайн · Кутузовский</sub>
+</div>

@@ -8,13 +8,13 @@
 
 Устав, УК, ТК, макросы и настройки — прямо поверх игры, без переключения окон.
 
-[![Версия](https://img.shields.io/badge/версия-0.4.12-3D5AFE?style=flat-square)](../../releases/latest)
-[![Платформа](https://img.shields.io/badge/платформа-Windows-3D5AFE?style=flat-square)](#-требования)
-[![.NET](https://img.shields.io/badge/.NET-8.0-3D5AFE?style=flat-square)](#-требования)
+[![Версия](https://img.shields.io/badge/версия-0.4.13-3D5AFE?style=flat-square)](../../releases/latest)
+[![Платформа](https://img.shields.io/badge/платформа-Windows-3D5AFE?style=flat-square)](#требования)
+[![.NET](https://img.shields.io/badge/.NET-10.0-3D5AFE?style=flat-square)](#требования)
 [![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F70%2B-3D5AFE?style=flat-square)](https://www.virustotal.com/gui/file/1550081912204e9803ea67b702f00bb9f193bb73787f265912b841879f5235ef)
 [![Скачать](https://img.shields.io/badge/скачать-releases-3D5AFE?style=flat-square)](../../releases/latest)
 
-[**Скачать последнюю версию**](../../releases/latest) · [Сайт проекта](https://helperro.netlify.app/) · [Discord-мейнтейнеры](#-команда)
+[**Скачать последнюю версию**](../../releases/latest) · [Сайт проекта](https://helperro.netlify.app/) · [Discord-мейнтейнеры](#команда)
 
 </div>
 
@@ -70,7 +70,7 @@
 ## Требования
 
 - Windows 10/11 (x64)
-- .NET 8 Desktop Runtime — если не установлен, приложение предложит поставить его автоматически при первом запуске
+- .NET 10 Desktop Runtime — если не установлен, приложение предложит поставить его автоматически при первом запуске
 
 ## Установка
 
@@ -78,7 +78,7 @@
 2. Запусти файл.
 3. Если Windows SmartScreen/браузер покажет предупреждение — это стандартная реакция на новый неподписанный файл без истории репутации, не вирус. Жми «Подробнее» → «Выполнить в любом случае» (или аналог).
 
-Файл версии 0.4.12 [проверен на VirusTotal](https://www.virustotal.com/gui/file/1550081912204e9803ea67b702f00bb9f193bb73787f265912b841879f5235ef) — 0 из 70+ антивирусов не обнаружили угроз.
+Файл версии 0.4.13 [проверен на VirusTotal](https://www.virustotal.com/gui/file/1550081912204e9803ea67b702f00bb9f193bb73787f265912b841879f5235ef) — 0 из 70+ антивирусов не обнаружили угроз. *(ссылка будет обновлена после проверки нового exe)*
 
 ## Горячие клавиши
 
@@ -86,20 +86,14 @@
 
 ## Сборка из исходников
 
-```bash
-git clone https://github.com/Accapura/Helper_RO_App.git
-cd Helper_RO_App
-dotnet publish -c Release -r win-x64 --self-contained true
-```
-
-Требуется .NET 8 SDK и Windows (используется WPF + WebView2).
+Требуется .NET 10 SDK и Windows (используется WPF + WebView2).
 
 ## Команда
 
 | Роль | Ник |
 |---|---|
-| Разработка | **Денис Яров** — Discord: `roste233` |
-| Разработка | **Михаил Яровой** — Discord: `accapura` |
+| Разработка | **Денис** — Discord: `roste233` |
+| Разработка | **Михаил** — Discord: `accapura` |
 
 ## Лицензия
 

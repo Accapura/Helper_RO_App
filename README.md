@@ -8,10 +8,10 @@
 
 Устав, УК, ТК, макросы и настройки — прямо поверх игры, без переключения окон.
 
-[![Версия](https://img.shields.io/badge/версия-0.4.13-3D5AFE?style=flat-square)](../../releases/latest)
+[![Версия](https://img.shields.io/badge/версия-0.4.16-3D5AFE?style=flat-square)](../../releases/latest)
 [![Платформа](https://img.shields.io/badge/платформа-Windows-3D5AFE?style=flat-square)](#требования)
 [![.NET](https://img.shields.io/badge/.NET-10.0-3D5AFE?style=flat-square)](#требования)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F70%2B-3D5AFE?style=flat-square)](https://www.virustotal.com/gui/file/6c44ddddf7803d22a32cdb03a6b4d7e7bd2cacc50b25614ff929bf2d0585eee9?nocache=1)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F70%2B-3D5AFE?style=flat-square)](https://www.virustotal.com/gui/file/16f36f9a4405d45c3cd0670136b2f8e1e4803dd9a83f7b6920be86b2ab6036ea)
 [![Скачать](https://img.shields.io/badge/скачать-releases-3D5AFE?style=flat-square)](../../releases/latest)
 
 [**Скачать последнюю версию**](../../releases/latest) · [Сайт проекта](https://helperro.netlify.app/) · [Discord-мейнтейнеры](#команда)
@@ -78,7 +78,7 @@
 2. Запусти файл.
 3. Если Windows SmartScreen/браузер покажет предупреждение — это стандартная реакция на новый неподписанный файл без истории репутации, не вирус. Жми «Подробнее» → «Выполнить в любом случае» (или аналог).
 
-Файл версии 0.4.13 [проверен на VirusTotal](https://www.virustotal.com/gui/file/6c44ddddf7803d22a32cdb03a6b4d7e7bd2cacc50b25614ff929bf2d0585eee9?nocache=1) — 0 из 70+ антивирусов не обнаружили угроз. *(ссылка будет обновлена после проверки нового exe)*
+Файл версии 0.4.16 [проверен на VirusTotal](https://www.virustotal.com/gui/file/16f36f9a4405d45c3cd0670136b2f8e1e4803dd9a83f7b6920be86b2ab6036ea) — 0 из 70+ антивирусов не обнаружили угроз.
 
 ## Горячие клавиши
 
@@ -97,7 +97,7 @@
 
 ## Лицензия
 
-Проект распространяется бесплатно для игроков сервера «Россия Онлайн».
+Проект распространяется бесплатно для игроков сервера «Россия Онлайн». Открытый исходный код — для ознакомления и локальной сборки.
 
 ---
 
